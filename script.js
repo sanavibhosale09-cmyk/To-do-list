@@ -1,5 +1,5 @@
 const task = document.getElementById("input");
-let add_btn = document.getElementById("add_btn");
+let add_btn = document.getElementById("add-btn");
 let tasklist = document.getElementById("Tasklist");
 
 add_btn.addEventListner("click",()=>{
@@ -51,6 +51,7 @@ function displayData() {
     tasklist.innerHTML =localStorage.getItem("data");
 }
 displayData();
+
 
 
 
