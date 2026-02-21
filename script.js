@@ -29,7 +29,7 @@ else{
     saveData();
 }});
 
-tasklist.addEventListener("Click",(event)=>
+tasklist.addEventListener("click",(event)=>
 {
     if(event.target.tagName ==="BUTTON"){
         event.target.parentElement.remove();
@@ -50,6 +50,7 @@ function displayData() {
     tasklist.innerHTML =localStorage.getItem("data");
 }
 displayData();
+
 
 
 
