@@ -27,7 +27,8 @@ else{
 
     task.value ="";
     saveData();
-}});
+}
+});
 
 tasklist.addEventListener("click",(event)=>
 {
@@ -50,6 +51,7 @@ function displayData() {
     tasklist.innerHTML =localStorage.getItem("data");
 }
 displayData();
+
 
 
 
